@@ -1,0 +1,34 @@
+
+body {
+  background: #000000;  
+  height: 100vh;           
+  margin: 0;    
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;          
+}
+
+#board {
+  border: 2px solid #d0d0f5;   
+  background: #12122b;  
+  width: 320px; 
+  height: 480px;     
+}
+
+#header {
+  display: flex;  
+  color: #d0d0f5;
+  font-size: 11px;
+  line-height: 2;
+  margin-bottom: 30px;
+  gap: 100px;
+}
+
+#next-board {
+  border: 1px solid #d0d0f5;
+  background: #0d0d1a;
+  display: block;
+  width: 80px;
+  height: 80px;
+}
